@@ -56,7 +56,6 @@ public class MessageControllerTest {
     }
 
     @Test
-    @Order(1)
     @DisplayName("🔄 Teste de troca de mensagens via WebSocket")
     void testWebSocketMessageExchange() throws Exception {
         String wsUrl = "ws://localhost:" + port + "/wb-guide-websocket";
